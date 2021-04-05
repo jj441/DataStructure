@@ -9,11 +9,13 @@ int main()
 {
 	MyIntVector vector1;
 	MyIntVector vector2;
+            MyIntVector vector3;
 
 	for (int i = 1; i <= 10; i++)
 	{
 		vector1.push_back(i);
 		vector2.push_back(20 - i);
+                         vector3.push_back(30 - i);
 	}
 
 	cout << "vector1 : ";
