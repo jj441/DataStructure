@@ -13,7 +13,7 @@ int main()
 	for (int i = 1; i <= 10; i++)
 	{
 		vector1.push_back(i);
-		vector2.push_back(40 - i);
+		vector2.push_back(80 - i);
 	}
 
 	cout << "vector1 : ";
